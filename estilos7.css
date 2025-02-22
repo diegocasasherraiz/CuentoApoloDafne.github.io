@@ -1,0 +1,52 @@
+a {
+  color: gold;
+  font-size: 25px;
+  text-align: center;
+   text-decoration: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+   font-family: fuentetitulo;
+}
+
+body {
+
+   background-image: url(images/fondogreek.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+
+p {
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+   font-family: fuente99;
+}
+@font-face {
+  font-family: fuente99;
+  src: url(tiposfuente/Alpaca\ Scarlett\ Demo.otf);
+}
+@font-face {
+  font-family: fuentetitulo;
+  src: url(tiposfuente/LuckiestGuy.ttf);
+}
+.mydiv {
+  font-size: 150%;
+  border: 5px outset gold ;
+  background-color: white;    
+  text-align: center;
+  font-family: fuente99;
+  margin: 0 auto;
+  width: 35%;

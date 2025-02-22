@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    color: #4CAF50; 
+    font-size: 40px;
+    margin-top: 50px;
+   font-family: fuentecuento;
+}
+
+fieldset {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #4CAF50; 
+    border-radius: 10px; 
+    background-color: #F0F8FF; 
+   font-family: fuentecuento;
+}
+
+
+label {
+    display: block;
+    color: #333333; 
+    font-size: 18px;
+    margin-bottom: 10px;
+   font-family: fuentecuento;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size:19px ;
+    border: 1px solid #4CAF50; 
+    border-radius: 5px; 
+    background-color: #FFFFFF; 
+   border: 1px solid #4CAF50;
+      font-family: fuentecuento;
+}
+
+
+button {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 19px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+   font-family: fuentecuento;
+}
+
+
+
+#output {
+    font-size: 19px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #E8F5E9; 
+    border: 1px solid #4CAF50; 
+    border-radius: 5px;
+    color: #333333; 
+    margin-top: 20px;
+   font-family: fuentecuento;
+}
+@font-face {
+  font-family: fuentecuento;
+  src: url(tiposfuente/Alpaca\ Scarlett\ Demo.otf);
+}
+}

@@ -1,0 +1,53 @@
+a {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+   text-decoration: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #e7e7e7;
+  font-size: 40px;
+   font-family: fuentetitulo;
+}
+
+body {
+  
+   background-image: url(images/808080.gif);
+  ;
+  background-size: cover;
+  text-align: center;
+   font-family: fuente7;
+  background-attachment: fixed;
+  
+}
+
+p {
+  font-size: 23px;
+  color: #e7e7e7;
+  text-align: center;
+  font-weight: bold;
+   font-family: fuente7;
+}
+@font-face {
+  font-family: fuente7;
+  src: url(tiposfuente/Alpaca\ Scarlett\ Demo.otf);
+}
+.mydiv {
+  font-size: 150%;
+  border: 5px outset blue;
+  background-color: white;    
+  text-align: center;
+  margin: 0 auto;
+  width: 35%;
+}
+@font-face {
+  font-family: fuentetitulo;
+  src: url(tiposfuente/LuckiestGuy.ttf);
+}

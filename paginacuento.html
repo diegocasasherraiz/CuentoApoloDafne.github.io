@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuento interactivo</title>
+    <link rel="icon" type="image/x-icon" href="images/ap.jpg">
+    <link rel="stylesheet" type="text/css" href="estilocuento.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>Cuento interactivo</h1>
+    <form action="">
+        <fieldset>
+
+            <label for = "txtImagen">Imagen</label>
+            <select id="txtImagen" name="elige">
+                <option value="apolo">Apolo</option>
+                <option value="dafne">Dafne</option>
+                
+            <label for="txtDios">Nombre de Dios</label>
+            <input type="text" id="txtDios" />
+
+            <label for="txtNinfa">Nombre de la chica</label>
+            <input type="text" id="txtNinfa" />
+
+            <label for="txtLugar">Lugar</label>
+            <input type="text" id="txtLugar" />
+
+            <label for="txtAccion">Verbo en 3ra persona del plural del pretérito perfecto simple (Ejemplo: bebían)</label>
+            <input type="text" id="txtAccion" />
+
+            <label for="txtObjeto">Objetos </label>
+            <input type="text" id="txtObjeto" />
+
+            <label for="txtTransformacion">Objeto en el que transformarse</label>
+            <input type="text" id="txtTransformacion" />
+
+            <label for="txtVerboPerseguir">Verbo para perseguir</label>
+            <input type="text" id="txtVerboPerseguir" />
+
+        
+
+            
+            <button onclick="contarHistoria()" type="button">Contar la historia</button>
+             <button onclick="borrarOutput()">Borrar la historia</button>
+              <button onclick="cambiarColor(event)">Cambiar la letra a color rojo</button>
+        </fieldset>
+    </form>
+
+    <div id="output"></div>
+    
+    
+
+<p> <a href="pagina7.html"><img src="images/volver.gif" alt="Volver hacia atras" style="width: 10%; float: left;"></p>
+        
+      <p><a href="index.html"><img src="images/acasa.gif" alt="Volver al inicio" style="width: 10%; float: left;"></a>  </p> 
+
+</body>
+</html>
